@@ -6,9 +6,9 @@ metadata:
 spec:
   rules:
   - host: hello.world
-     http:
-     paths:
-     - backend:
-       serviceName: helloworld
-       servicePort: 80
-       path: /
+    http:
+      paths:
+      - backend:
+          serviceName: helloworld
+          servicePort: 80
+        path: /
